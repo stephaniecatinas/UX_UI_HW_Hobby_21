@@ -1,0 +1,87 @@
+body {
+  background-color: #EDEAE4;
+  margin: 0;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #2D312A;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+
+.navbar a {
+  margin-top: 30px;
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover {
+  background: #EDEAE4;
+  color: black;
+}
+
+
+.main {
+  margin-top: 30px; 
+}
+.heroImg {
+  position: center;
+  width: 100%;
+
+}
+.hero-text {
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.button1 {
+  background-color: #EDEAE4;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 7px;
+}
+
+
+.button2 {
+  background-color: #948F86;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 7px;
+}
+
+
+footer {
+  background-color: #2D312A;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
